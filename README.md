@@ -12,22 +12,22 @@ learnscrape/
 ├── README.MD
 ├── include
 │	└── learnscrape
-│		├── learn.h
-│		└── scrape.h
+│	├── learn.h
+│	└── scrape.h
 ├── lib
 │	├── lib.md
 │	└── nthslwned
-│		├── CMakeLists.txt
-│		├── include
-│		│	└── nthslwned
-│		│		└── nthslwned.h
-│		├── src
-│		│	└── nthslwned.cpp
-│		└── test
-│			├── nthslwnedTest.cpp
-│			└── CMakeLists.txt
+│	    ├── CMakeLists.txt
+│	    ├── include
+│	    │ 	└── nthslwned
+│	    │	      └── nthslwned.h
+│	    ├── src
+│	    │	  └── nthslwned.cpp
+│	    └── test
+│			    ├── CMakeLists.txt
+│			    └── nthslwnedTest.cpp
 ├── src
-│	└── learnscrape.cpp
+│	  └── learnscrape.cpp
 └── test
 ```
 
