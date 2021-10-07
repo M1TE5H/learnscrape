@@ -1,7 +1,7 @@
 #include <iostream>
 
 void PrintVersion(int VersionMajor, int VersionMinor, int VersionStage) {
-  printf ("learnscrape version %d.%d,%d", VersionMajor, VersionMinor, VersionStage);
+  printf ("learnscrape version %d.%d,%d\n", VersionMajor, VersionMinor, VersionStage);
 }
 
 int main()
