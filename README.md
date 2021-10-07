@@ -11,21 +11,21 @@ learnscrape/
 ├── CMakeLists.txt
 ├── README.MD
 ├── include
-│	└── learnscrape
-│	├── learn.h
-│	└── scrape.h
+│	  └── learnscrape
+│	  ├── learn.h
+│	  └── scrape.h
 ├── lib
-│	├── lib.md
-│	└── nthslwned
-│	    ├── CMakeLists.txt
-│	    ├── include
-│	    │ 	└── nthslwned
-│	    │	      └── nthslwned.h
-│	    ├── src
-│	    │	  └── nthslwned.cpp
-│	    └── test
-│			    ├── CMakeLists.txt
-│			    └── nthslwnedTest.cpp
+│	  ├── lib.md
+│	  └── nthslwned
+│	      ├── CMakeLists.txt
+│	      ├── include
+│	      │ 	└── nthslwned
+│	      │	      └── nthslwned.h
+│	      ├── src
+│	      │   └── nthslwned.cpp
+│	      └── test
+│			      ├── CMakeLists.txt
+│			      └── nthslwnedTest.cpp
 ├── src
 │	  └── learnscrape.cpp
 └── test
