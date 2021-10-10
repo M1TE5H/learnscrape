@@ -8,6 +8,8 @@ Technical Code Specification Manual
 4. Formulate an ansatz for `{thetaParameter}` and compute the mean-squared error `costFunction()` for this initial guess.
 5. Perform a multi-parameter optimisation of the `costFunction()` upon computing the `{thetaParameter}` derivative gradients.
 6. Repeat the minimisation procedure for `costFunction` until a convergence criterion is satisfied.
+7. Evaluate some predictions using interpolation/extropolation schemes as specified by the user.
+8. Produce an animate report designed to demonstrate the algorithmic workflow as well as analysis of the results.
 
 
 
