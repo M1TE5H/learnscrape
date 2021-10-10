@@ -28,14 +28,14 @@ learnscrape/
 ├── include
 │   └── learnscrape
 │   ├── learn.h
-│	  └── scrape.h
+│   └── scrape.h
 ├── lib
-│	  ├── lib.md
-│	  └── nthslwned
-│	      ├── CMakeLists.txt
-│	      ├── include
-│	      │ 	└── nthslwned
-│	      │	      └── nthslwned.h
+│   ├── lib.md
+│   └── nthslwned
+│       ├── CMakeLists.txt
+│       ├── include
+│       │   └── nthslwned
+│	      │       └── nthslwned.h
 │	      ├── src
 │	      │   └── nthslwned.cpp
 │	      └── test
