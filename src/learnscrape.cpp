@@ -1,5 +1,24 @@
 #include <iostream>
 
+
+// Singletons
+
+
+// Facades
+
+
+// Bridges
+
+
+// Strategies
+
+
+// Observers
+
+
+
+
+
 void PrintVersion(int VersionMajor, int VersionMinor, int VersionStage) {
   printf ("learnscrape version %d.%d,%d\n", VersionMajor, VersionMinor, VersionStage);
 }
