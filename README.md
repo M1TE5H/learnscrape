@@ -48,15 +48,15 @@ learnscrape/
 
 **Note:** The general acronym `nthslwned` corresponds to the nth static library with no external dependencies. Each `nthslwned` is nested in the `lib` directory following the same structure outlined above; and `nthslwned` must accordingly be featured in the main `CMakeLists.txt` file.
 
-## External Dependencies
+## External Dependencies
 
-###C/C++
+### C/C++
 Linear Algebra:
 - `llapack`
 - `lblas`
 - `larmadillo`
 
-### Ruby
+### Ruby
 Standard Library:
 - `open-uri`
 - `net/http`
@@ -64,11 +64,18 @@ Standard Library:
 
 Gem Installation:
 ```bash
-gem install `pry`		# Debugging Tools
-gem install `nokogiri`	# Parsing 
-gem install `httparty`	# HTTP Request
+  gem install `pry`	# Debugging Tools
+  gem install `nokogiri`	# Parsing 
+  gem install `httparty`	# HTTP Request
+  gem install 'kimurai'
 ```
-
+### MacOS Tools
+```bash
+  brew cask install google-chrome firefox
+  brew cask install chromedriver
+  brew install geckodriver
+  brew install phantomjs
+```
 
 ## Usage Guide
 1. Make build directory: `mkdir build`
