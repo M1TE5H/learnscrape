@@ -1,11 +1,21 @@
 # learnscrape
-Library for Machine Learning and Web Scraping
+Materials Informatics Library for Machine Learning and Web Scraping
 
-Copyright (c) 2021 by M1TE5H
-Available under the MIT License
+## Abstract
+Multivariate Polynomial Regression in C/C++ with Complete Database Framework using Ruby HTTP Clients and Selenium
+
+Copyright (c) 2021 by Dr Mitesh Patel (M1TE5H)
+This restricted version of the source code available under the MIT License. Contact the developer for the full version:
+```bash
+  npx mitesh
+```
+
+## Contents
+
 
 
 ## Directory Structure
+Static Library
 ```
 learnscrape/
 ├── CMakeLists.txt
