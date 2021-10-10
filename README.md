@@ -64,7 +64,7 @@ Standard Library:
 
 Gem Installation:
 ```bash
-  gem install `pry`	# Debugging Tools
+  gem install `pry`     	# Debugging Tools
   gem install `nokogiri`	# Parsing 
   gem install `httparty`	# HTTP Request
   gem install 'kimurai'
