@@ -1,23 +1,31 @@
 # learnscrape
 Materials Informatics Library for Machine Learning and Web Scraping
 
+----
+
 ## Abstract
 Multivariate Polynomial Regression in C/C++ with Complete Database Framework using Ruby HTTP Clients and Selenium.
 
 ## Permissions
 Copyright (c) 2021 by Dr Mitesh Patel (M1TE5H)
 
-This restricted version of the source code is made available for free under the MIT License. Contact the developer for the full version:
+This restricted version of the source code is made available for free under the MIT License.
+
+Contact the developer for the full version with debugging tools:
 ```bash
   npx mitesh
 ```
 
+
 ## Disclaimer
 This source code comes without any warranties as to the accuracy and reliability of the data referenced, compiled, presented and/or extrapolated. The user is advised to conduct their own due diligence.
+
+----
 
 ## Contents
 
 
+----
 
 ## Directory Structure
 Static Library
@@ -27,8 +35,8 @@ learnscrape/
 ├── README.MD
 ├── include
 │   └── learnscrape
-│   ├── learn.h
-│   └── scrape.h
+│       ├── learn.h
+│       └── scrape.h
 ├── lib
 │   ├── lib.md
 │   └── nthslwned
