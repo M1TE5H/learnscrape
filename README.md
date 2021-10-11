@@ -115,4 +115,14 @@ Gem Installation:
 1. Make build directory: `mkdir build`
 2. Change to build director: `cd build`
 3. Run CMake: `cmake ..`
-4. Execute learnscrape: `./learnscrape` 
+4. Execute learnscrape: `./learnscrape`
+
+## Convention System
+The update conduct adheres to <a href="https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/CodingStandard/">Coding Standards</a> which underpin the Unreal Engine.
+### Directories and Files
+```
+  main/
+  main.*
+  
+  variable
+```
