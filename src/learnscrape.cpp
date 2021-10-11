@@ -1,19 +1,37 @@
 #include <iostream>
 
-
-// Singletons
-
-
-// Facades
-
-
-// Bridges
+/* DESIGN PATTERNS */
+// 1. Singletons
+// 2. Facades
+// 3. Bridges
+// 4. Strategies
+// 5. Observers
 
 
-// Strategies
+class generalFeature {
+private:
+	char* variableName;
+	char* standardUnit;	
+	int dataType;
+	double scalingMetric;
+public:
+};
 
 
-// Observers
+class dataEntry {
+private:
+
+public:
+};
+
+
+class trainingSet {
+private:
+	generalFeature* featureList;
+	dataEntry** inputArray;
+	dataEntry* outputArray;
+public:
+};
 
 
 
