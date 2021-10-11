@@ -64,8 +64,21 @@ The multi-modular program interfaces are managed according to the following low-
     private:
       // ...
     public:
-  }
+  };
+  
+  class TrainingSet {
+    private:
+      // ...
+    public:
+  };
+  
+  class ModelParameters {
+    private:
+      // ...
+    public:
+  };
 ```
+
 
 
 ## External Dependencies
