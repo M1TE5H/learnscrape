@@ -8,24 +8,23 @@
 // 5. Observers
 
 
-class generalFeature {
+class GeneralFeature {
 private:
-	char* variableName;
-	char* standardUnit;	
-	int dataType;
-	double scalingMetric;
+	char* VariableName;
+	char* StandardUnit;	
+	int DataType;
+	double ScalingMetric;
 public:
 };
 
 
-class dataEntry {
+class ExampleDatum {
 private:
-
 public:
 };
 
 
-class trainingSet {
+class TrainingSet {
 private:
 	generalFeature* featureList;
 	dataEntry** inputArray;
