@@ -1,3 +1,6 @@
+# netvoyager 0.0.0
+# web scraper for materials parameters
+
 require 'open-uri'
 require 'net/http'
 require 'httparty'
