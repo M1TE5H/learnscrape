@@ -57,19 +57,31 @@ learnscrape/
 
 **Note:** The general acronym `nthslwned` corresponds to the nth static library with no external dependencies. Each `nthslwned` is nested in the `lib` directory following the same structure outlined above; and `nthslwned` must accordingly be featured in the main `CMakeLists.txt` file.
 
+## Data Structures
+The multi-modular program interfaces are managed according to the following low-lying singleton data structures:
+```C++
+  class GeneralisedFeature {
+    private:
+      // ...
+    public:
+  }
+```
+
+
 ## External Dependencies
 
 ### C/C++
-Linear Algebra:
+Linear Algebra: these matrix operations utilise the dedicated graphical processing unit hardware:
 - `llapack`
 - `lblas`
 - `larmadillo`
 
 ### Ruby
-Standard Library:
+Standard Libraries:
 - `open-uri`
 - `net/http`
 - `csv`
+- `json`
 
 Gem Installation:
 ```bash
