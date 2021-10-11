@@ -50,7 +50,8 @@ learnscrape/
 │           ├── CMakeLists.txt
 │           └── nthslwnedTest.cpp
 ├── src
-│   └── learnscrape.cpp
+│   ├── learnscrape.cpp
+│   └── netvoyager.rb
 └── test
 ```
 
